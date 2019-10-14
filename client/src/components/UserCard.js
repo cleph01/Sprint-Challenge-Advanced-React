@@ -20,7 +20,7 @@ function UserCard(props) {
         
     return(
         <>
-            <CardDiv>
+            <CardDiv role='user_card'>
                 <h3>Player Name: {props.player.name}</h3>
                 <p>Country: {props.player.country}</p>
                 <p>Google Searches: {props.player.searches}</p>
